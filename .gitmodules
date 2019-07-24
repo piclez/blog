@@ -4,3 +4,7 @@
 [submodule "themes/casper-two"]
 	path = themes/casper-two
 	url = https://github.com/eueung/hugo-casper-two.git
+[submodule "public"]
+	path = public
+	url = git@github.com:piclez/piclez.github.io.git
+	branch = master
