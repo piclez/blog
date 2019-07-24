@@ -1,0 +1,60 @@
+baseurl         = "https://piclez.github.io/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Peter WD"
+  subtitle    = "Blogging about Tech"
+
+  cover       = "image/animal-beach-gull.jpg"
+  description = "Blogging about Ruby on Rails, Machine Learning, Serverless and Life"
+  metaDescription = ""
+  googleAnalytics = "UA-314404-24"
+  customCSS = []
+  RSSLink = ""
+
+  #twitterName = "faketryghost"
+  # fbName = "fakeghost"
+  githubName = "piclez"
+
+  logo = ""
+  orgName = "Frenti © 2019"
+  orgWebsite = "http://www.frenti.com"
+  orgDescription = "Frenti"
+
+  author = "PD"
+  authorAvatar = "image/peter.jpg"
+  authorLocation = "San Diego, CA"
+  authorWebsite = "https://piclez.github.io"
+  authorDescription = "Senior Software Engineer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "caspertwo"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Blog"
+  url = "/tags/blog/"
+  weight = 100
+
+[[menu.main]]
+  name = "Tutorial"
+  url = "/categories/tutorial/"
+  weight = 99
+
+[[menu.main]]
+  name = "Frenti"
+  url = "http://www.frenti.com"
+  weight = 95
